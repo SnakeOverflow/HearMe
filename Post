@@ -1,0 +1,9 @@
+#[derive(Debug, Serialize,
+Deserialize]
+struct Post {
+    id: i32,
+    title: String,
+    content: String,
+    author: String,
+    timestamp: String,
+    }
